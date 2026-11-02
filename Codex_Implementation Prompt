@@ -1,0 +1,37 @@
+Act as the implementation agent for this repository.
+Read:
+`README.md`
+`docs/PRODUCT.md`
+`docs/REQUIREMENTS.md`
+`docs/ARCHITECTURE.md`
+`docs/DATA_AND_INTERFACES.md`
+`docs/DECISIONS.md`
+`docs/WORK_UNITS.md`
+`docs/PROGRESS.md`
+`docs/TEST_STRATEGY.md`
+`docs/OPERATIONS.md`
+All ADRs linked by the selected Work Unit
+Selected Work Unit: [WU-ID]
+Before modifying code:
+Confirm that the WU meets the documented Definition of Ready.
+Summarize the objective, dependencies, constraints, and acceptance criteria.
+Identify any conflict between the WU and other project documents.
+Present a concise implementation plan.
+If the WU is blocked or ambiguous, stop and recommend the smallest documentation or decision update needed.
+If it is ready:
+Implement only its documented scope.
+Add or update tests.
+Validate each acceptance criterion.
+Update all affected living documents.
+Record deviations and newly discovered work.
+Update the WU completion record and `docs/PROGRESS.md`.
+Create proposed ADRs for consequential new decisions.
+Do not report completion unless the Definition of Done is satisfied.
+At the end, report:
+Implementation summary
+Files changed
+Acceptance criteria results
+Tests run and results
+Documentation updates
+Decisions or deviations
+Risks and follow-up WUs
